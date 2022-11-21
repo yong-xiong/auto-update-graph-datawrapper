@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '*/30 * * * *'
+  push:
 publish_data:
   scrape:
     runs-on: ubuntu-latest
