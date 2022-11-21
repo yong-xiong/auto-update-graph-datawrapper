@@ -1,8 +1,5 @@
 name: publish_data
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '*/5 * * * *'
   push:
 publish_data:
   scrape:
@@ -14,4 +11,3 @@ publish_data:
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-
