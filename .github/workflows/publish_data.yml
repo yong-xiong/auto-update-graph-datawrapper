@@ -16,8 +16,6 @@ publish_data:
           python-version: '3.10'
       - name: Install all necessary packages
         run: pip install pandas requests beautifulsoup4
-      - name: Run the scraping script
-        run: jupyter nbconvert --to notebook --execute "Pumpkin update script.ipynb" --stdout
       - name: Commit and push any changes
         run: |-
           git config user.name "Automated"
