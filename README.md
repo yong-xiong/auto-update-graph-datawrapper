@@ -2,6 +2,14 @@
 
 We start with a Jupyter notebook and a little bit of HTML, and we turn it into a beautiful auto-updating website.
 
+## 0. Fork this repository
+
+You need your own version of this code. I recommend **forking the repo**, which involves clicking the fork button on the top right-hand corner of this page.
+
+If you've already forked it once, you might need to [detatched your previous fork](https://ralphjsmit.com/unfork-github-repo) so you can fork it again.
+
+You can also **download the repository** and make a new repo using the files you downloaded.
+
 ## 1. Write the code
 
 I wrote a Jupyter notebook called `Pumpkin update script` that saves a file called `pumpkins.csv`. You can name your script whatever you want, and have it save a file named whatever you want.
@@ -102,7 +110,7 @@ Remember when we found that link to our website? My link looks like this:
 > **Your site is live at https://jsoma.github.io/auto-update-graph-datawrapper/**
 > Last deployed by @github-pages github-pages 2 minutes ago
 
-Go to your website and make sure your chart is there!
+Go to your website and make sure your chart is there! If it doesn't work, maybe wait a couple minutes and try again. You can also hold down **shift** and click the refresh button to **force refresh**.
 
 ## 12. Beautify your website
 
